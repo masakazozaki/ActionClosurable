@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Yoshitaka Seki. All rights reserved.
 //
 
-#if os(iOS)
+#if os(iOS) || os(visionOS)
 import UIKit
 
 extension ActionClosurable where Self: UIControl {
